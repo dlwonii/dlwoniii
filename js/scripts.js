@@ -63,9 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
       categoryId: "translateCategory1",
       translations: {
         title: {
-          kr: "젠틀몬스터 홈페이지 디자인(예정)",
-          en: "Gentle Monster Homepage Design (Planned)",
-          ja: "ジェントルモンスター ホームページデザイン (予定)"
+          kr: "I AM",
+          en: "I AM",
+          ja: "I AM"
         },
         content: {
             kr: `이름: 이재원<br>생년월일: 2003/2/5<br>전화번호: 010-3193-@@@@<br>e-mail: nyse**@naver.com`,
@@ -73,14 +73,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ja: `名前: イ・ジェウォン<br>生年月日: 2003年2月5日<br>電話番号: 010-3193-@@@@<br>メール: nyse**@naver.com`
         },
         client: {
-          kr: " ",
-          en: " ",
-          ja: " "
+          kr: "-",
+          en: "-",
+          ja: "-"
         },
         category: {
-          kr: " ",
-          en: " ",
-          ja: " "
+          kr: "-",
+          en: "-",
+          ja: "-"
         }
       }
     },
@@ -146,7 +146,8 @@ document.addEventListener("DOMContentLoaded", () => {
       btnId: "translateBtn4",
       titleId: "translateTitle4",
       contentId: "translateContent4",
-      categoryId: null,
+      clientId: "translateClient4",
+      categoryId: "translateCategory4",
       translations: {
         title: {
           kr: "AI 개발(예정)",
@@ -157,6 +158,16 @@ document.addEventListener("DOMContentLoaded", () => {
           kr: `사용자별 데이터를 분석하여 개인화된 콘텐츠와 서비스를 제공하는 AI를 개발할 계획입니다. Python으로 머신러닝과 자연어처리 기술을 학습하며, 사용자 피드백을 반영해 맞춤형 추천, 대화형 응답, 자동화된 일정관리 등 실생활에 도움이 되는 기능을 구현할 예정입니다. 또한, IoT와 결합해 방의 전자기기와 조명 등을 원격으로 제어할 수 있는 스마트홈 시스템을 설계해, 집 밖에서도 편리하게 기기를 관리할 수 있도록 만들고자 합니다.`,
           en: `We plan to develop an AI that analyzes user-specific data to provide personalized content and services. We will study machine learning and natural language processing with Python, incorporating user feedback to implement features such as customized recommendations, conversational responses, and automated schedule management, making daily life more convenient. Additionally, we aim to integrate this with IoT to design a smart home system that allows remote control of electronic devices and lighting in the room, enabling users to manage their devices conveniently even when away from home.`,
           ja: `ユーザーごとのデータを分析し、パーソナライズされたコンテンツやサービスを提供するAIを開発する予定です。Pythonで機械学習や自然言語処理技術を学び、ユーザーのフィードバックを反映しながら、カスタマイズされたレコメンデーション、対話型応答、自動化されたスケジュール管理など、日常生活に役立つ機能を実装します。また、IoTと連携し、部屋の電子機器や照明などを遠隔で制御できるスマートホームシステムを設計し、外出先からでも便利に機器を管理できるようにすることを目指します。`
+        },
+        client: {
+          kr: "개인 프로젝트",
+          en: "Personal Project",
+          ja: "個人プロジェクト"
+        },
+        category: {
+          kr: "AI",
+          en: "AI",
+          ja: "AI"
         }
       }
     },
@@ -164,6 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btnId: "translateBtn5",
       titleId: "translateTitle5",
       contentId: "translateContent5",
+      clientId: "translateClient5",
       categoryId: "translateCategory5",
       translations: {
         title: {
@@ -176,6 +188,11 @@ document.addEventListener("DOMContentLoaded", () => {
           en: `We plan to develop a program that predicts the outcome of games by integrating various data such as player injuries, recent match results, team win rates, and head-to-head records. Our goal is to improve prediction accuracy by using Python for data analysis and machine learning model training.`,
           ja: `各チームの選手の負傷状況、直近の試合成績、チームの勝率、直接対決の記録など、さまざまなデータを総合して勝敗を予測するプログラムを開発する予定です。Pythonでデータ分析や機械学習モデルを学習し、予測の精度を高めることを目指します。`
         },
+        client: {
+          kr: "개인 프로젝트",
+          en: "Personal Project",
+          ja: "個人プロジェクト"
+        },
         category: {
           kr: "프로그램 개발",
           en: "Program Development",
@@ -187,6 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btnId: "translateBtn6",
       titleId: "translateTitle6",
       contentId: "translateContent6",
+      clientId: "translateClient6",
       categoryId: "translateCategory6",
       translations: {
         title: {
@@ -198,6 +216,11 @@ document.addEventListener("DOMContentLoaded", () => {
           kr: `사용자가 설정한 비밀번호의 보안 강도를 분석하고, 취약한 비밀번호를 자동으로 알려주는 프로그램을 개발할 예정입니다. JavaScript와 Python으로 비밀번호 안전성 점검 알고리즘을 구현하고, 사용자에게 안전한 비밀번호 사용을 유도하는 가이드를 제공합니다.`,
           en: `We plan to develop a program that analyzes the security of user-set passwords and automatically notifies users of weak passwords. We will implement a password security check algorithm using JavaScript and Python, and provide a guide to encourage users to use secure passwords.`,
           ja: `ユーザーが設定したパスワードの安全性を分析し、脆弱なパスワードを自動的に知らせるプログラムを開発する予定です。JavaScriptとPythonでパスワードの安全性診断アルゴリズムを実装し、ユーザーに安全なパスワードの使用を促すガイドを提供します。`
+        },
+        client: {
+          kr: "개인 프로젝트",
+          en: "Personal Project",
+          ja: "個人プロジェクト"
         },
         category: {
           kr: "보안",
