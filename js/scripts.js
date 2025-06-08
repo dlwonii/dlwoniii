@@ -54,6 +54,8 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("버튼 눌림!");
+
   const modals = [
     {
       btnId: "translateBtn1",
