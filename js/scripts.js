@@ -72,22 +72,23 @@ document.addEventListener("DOMContentLoaded", () => {
         contentId: "translateContent2",
         categoryId: "translateCategory2",
         translations: {
-            title: {
-              kr: "젠틀몬스터 홈페이지 디자인(예정)",
-              en: "Gentle Monster Homepage Design (Planned)",
-              ja: "ジェントルモンスター ホームページデザイン (予定)"
-            },
-            content: {
-              kr: `젠틀몬스터의 브랜드 이미지를 반영한 세련된 웹페이지 디자인을 할 예정입니다. HTML/CSS와 JavaScript를 활용해 반응형 웹사이트를 제작하며, 젠틀몬스터의 현대적인 감각과 사용자 경험을 강조한 인터랙티브 요소도 추가할 계획입니다.`,
-              en: `A sophisticated web page design reflecting Gentle Monster's brand image will be created. Using HTML/CSS and JavaScript, a responsive website will be developed, emphasizing Gentle Monster's modern sensibility and user experience with interactive elements.`,
-              ja: `ジェントルモンスターのブランドイメージを反映した洗練されたウェブページデザインを行う予定です。HTML/CSSとJavaScriptを活用してレスポンシブなウェブサイトを制作し、ジェントルモンスターの現代的な感覚とユーザー体験を強調したインタラクティブな要素も追加する予定です。`
-            },
-            category: {
-              kr: "웹사이트 개발",
-              en: "Website Development",
-              ja: "ウェブサイト開発"
-            }
-      },
+          title: {
+            kr: "젠틀몬스터 홈페이지 디자인(예정)",
+            en: "Gentle Monster Homepage Design (Planned)",
+            ja: "ジェントルモンスター ホームページデザイン (予定)"
+          },
+          content: {
+            kr: `젠틀몬스터의 브랜드 이미지를 반영한 세련된 웹페이지 디자인을 할 예정입니다. HTML/CSS와 JavaScript를 활용해 반응형 웹사이트를 제작하며, 젠틀몬스터의 현대적인 감각과 사용자 경험을 강조한 인터랙티브 요소도 추가할 계획입니다.`,
+            en: `A sophisticated web page design reflecting Gentle Monster's brand image will be created. Using HTML/CSS and JavaScript, a responsive website will be developed, emphasizing Gentle Monster's modern sensibility and user experience with interactive elements.`,
+            ja: `ジェントルモンスターのブランドイメージを反映した洗練されたウェブページデザインを行う予定です。HTML/CSSとJavaScriptを活用してレスポンシブなウェブサイトを制作し、ジェントルモンスターの現代的な感覚とユーザー体験を強調したインタラクティブな要素も追加する予定です。`
+          },
+          category: {
+            kr: "웹사이트 개발",
+            en: "Website Development",
+            ja: "ウェブサイト開発"
+          }
+        }
+    },
     {
       btnId: "translateBtn3",
       titleId: "translateTitle3",
