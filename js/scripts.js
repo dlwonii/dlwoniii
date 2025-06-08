@@ -128,9 +128,9 @@ document.addEventListener("DOMContentLoaded", () => {
           ja: "AI開発 (予定)"
         },
         content: {
-          kr: `사용자별 데이터를 분석하여 개인화된 콘텐츠와 서비스를 제공하는 AI를 개발할 계획입니다...`,
-          en: `We plan to develop an AI that analyzes user-specific data to provide personalized content and services...`,
-          ja: `ユーザーごとのデータを分析し、パーソナライズされたコンテンツやサービスを提供するAIを開発する予定です...`
+          kr: `사용자별 데이터를 분석하여 개인화된 콘텐츠와 서비스를 제공하는 AI를 개발할 계획입니다. Python으로 머신러닝과 자연어처리 기술을 학습하며, 사용자 피드백을 반영해 맞춤형 추천, 대화형 응답, 자동화된 일정관리 등 실생활에 도움이 되는 기능을 구현할 예정입니다. 또한, IoT와 결합해 방의 전자기기와 조명 등을 원격으로 제어할 수 있는 스마트홈 시스템을 설계해, 집 밖에서도 편리하게 기기를 관리할 수 있도록 만들고자 합니다.`,
+          en: `We plan to develop an AI that analyzes user-specific data to provide personalized content and services. We will study machine learning and natural language processing with Python, incorporating user feedback to implement features such as customized recommendations, conversational responses, and automated schedule management, making daily life more convenient. Additionally, we aim to integrate this with IoT to design a smart home system that allows remote control of electronic devices and lighting in the room, enabling users to manage their devices conveniently even when away from home.`,
+          ja: `ユーザーごとのデータを分析し、パーソナライズされたコンテンツやサービスを提供するAIを開発する予定です。Pythonで機械学習や自然言語処理技術を学び、ユーザーのフィードバックを反映しながら、カスタマイズされたレコメンデーション、対話型応答、自動化されたスケジュール管理など、日常生活に役立つ機能を実装します。また、IoTと連携し、部屋の電子機器や照明などを遠隔で制御できるスマートホームシステムを設計し、外出先からでも便利に機器を管理できるようにすることを目指します。`
         }
       }
     },
@@ -146,9 +146,9 @@ document.addEventListener("DOMContentLoaded", () => {
           ja: "勝負予測プログラム (予定)"
         },
         content: {
-          kr: `각 팀의 선수 부상 여부, 최근 경기 전적 등 다양한 데이터를 종합하여 승부를 예측하는 프로그램을 개발할 예정입니다...`,
-          en: `A program that predicts match outcomes by analyzing various data such as player injuries, recent match records...`,
-          ja: `各チームの選手の怪我の有無、最近の試合成績など様々なデータを総合して勝負を予測するプログラムを開発する予定です...`
+          kr: `각 팀의 선수 부상 여부, 최근 경기 전적, 팀의 승률, 맞대결 기록 등 다양한 데이터를 종합하여 승부를 예측하는 프로그램을 개발할 예정입니다. Python으로 데이터 분석과 머신러닝 모델을 학습해 예측 정확도를 높이는 것을 목표로 하고 있습니다.`,
+          en: `We plan to develop a program that predicts the outcome of games by integrating various data such as player injuries, recent match results, team win rates, and head-to-head records. Our goal is to improve prediction accuracy by using Python for data analysis and machine learning model training.`,
+          ja: `各チームの選手の負傷状況、直近の試合成績、チームの勝率、直接対決の記録など、さまざまなデータを総合して勝敗を予測するプログラムを開発する予定です。Pythonでデータ分析や機械学習モデルを学習し、予測の精度を高めることを目指します。`
         },
         category: {
           kr: "프로그램 개발",
@@ -169,9 +169,9 @@ document.addEventListener("DOMContentLoaded", () => {
           ja: "パスワード診断プログラム (予定)"
         },
         content: {
-          kr: `사용자가 설정한 비밀번호의 보안 강도를 분석하고, 취약한 비밀번호를 자동으로 알려주는 프로그램을 개발할 예정입니다...`,
-          en: `A program that analyzes the security strength of user-set passwords and notifies them of weak passwords...`,
-          ja: `ユーザーが設定したパスワードの安全性を分析し、脆弱なパスワードを自動的に知らせるプログラムを開発する予定です...`
+          kr: `사용자가 설정한 비밀번호의 보안 강도를 분석하고, 취약한 비밀번호를 자동으로 알려주는 프로그램을 개발할 예정입니다. JavaScript와 Python으로 비밀번호 안전성 점검 알고리즘을 구현하고, 사용자에게 안전한 비밀번호 사용을 유도하는 가이드를 제공합니다.`,
+          en: `We plan to develop a program that analyzes the security of user-set passwords and automatically notifies users of weak passwords. We will implement a password security check algorithm using JavaScript and Python, and provide a guide to encourage users to use secure passwords.`,
+          ja: `ユーザーが設定したパスワードの安全性を分析し、脆弱なパスワードを自動的に知らせるプログラムを開発する予定です。JavaScriptとPythonでパスワードの安全性診断アルゴリズムを実装し、ユーザーに安全なパスワードの使用を促すガイドを提供します。`
         },
         category: {
           kr: "보안",
